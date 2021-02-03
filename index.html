@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="background">
+            <img src="https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?auto=compress&cs=tinysrgb&h=750&w=1260">
+        </div>
+
+        <div id="instructions">
+            <p>Let's see what the magic 8 ball will show you!</p>
+            <br>
+            <p>Just insert your keyword and click the Magic Ball!</p>
+
+        </div>
+    </div>
+
+    <main>
+        <input id='search' type="text">
+        <button id="reset" onclick="resetButton()">reset</button>
+
+        <div id="grid">
+            <div id="centerDiv" class="card" onclick="dataReceiver()">
+                <img src="./ball.png">
+            </div>
+
+            <div id="search-results"></div>
+        </div>
+
+    </main>
+</body>
+</html>

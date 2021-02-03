@@ -1,0 +1,87 @@
+/* #header {
+    width: 100vw;
+    height: 30vh;
+    background-image: url("https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: contain;
+    background-repeat: initial;
+} */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0%;
+    
+}
+
+#background {
+    margin: 0;
+    border: 0;
+    padding: 0%;
+}
+#background>img {
+    width: 100vw;
+    height: 25vh;
+    margin: 0;
+    border: 0;
+    padding: 0%;
+}
+
+#instructions {
+    width: 100vw;
+    height: 30vh;
+}
+
+#instructions>p {
+    font-size: 200%;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+#reset {
+    background-color: blue;
+    width: 7vw;
+    color: white;
+}
+
+
+#centerDiv {
+/* background-image: url("./ball.png");
+background-size: contain;
+background-repeat: no-repeat; */
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 2;
+
+}
+
+#centerDiv>img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+#search {
+    background-color: hotpink;
+    width: 60vw;
+    text-align: center;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+
+
+
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-items: center;
+    align-items: center;
+}
+/* .card {
+    display: grid;
+} */
