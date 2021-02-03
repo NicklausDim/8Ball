@@ -22,7 +22,7 @@ function dataReceiver() {
     let options = {
         'method':'GET',
         'headers': {
-            'x-rapidapi-key': "ad560d2758mshea3a392b9b06bb4p1dd47fjsnfd9c3537b79f",
+            'x-rapidapi-key': "",
             'x-rapidapi-host': "imdb8.p.rapidapi.com"
         }
     };
@@ -32,7 +32,7 @@ function dataReceiver() {
 
 function resetButton() {
     document.getElementById("search").value="";
-    document.getElementById("grid").innerHTML='<div id="centerDiv" class="card" onclick="dataReceiver()"><img class="shake" src="./ball.png"></div>';
+    document.getElementById("grid").innerHTML='<div id="centerDiv" class="card" onclick="dataReceiver()"><img class = "shake" src="./ball.png"></div><div id="search-results"></div>';
 
     
     
