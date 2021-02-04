@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script async src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -23,14 +24,19 @@
 
     <main>
         <input id='search' type="text">
-        <button id="reset" onclick="resetButton()">reset</button>
+        <button id="reset">reset</button>
 
         <div id="grid">
-            <div id="centerDiv" class="card" onclick="dataReceiver()">
-                <img class = "shake" src="./ball.png">
+            <div id="centerDiv" class="card">
+                <img class = "shake" src="./Components/ball.png">
             </div>
 
             <div id="search-results"></div>
+        </div>
+        <p class="suggestions">Our Suggestions!</p>
+        <br>
+
+        <div id="topMovies">
         </div>
 
     </main>
